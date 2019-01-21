@@ -38,7 +38,7 @@ public class MyApp extends Application{
         super.onCreate();
         instance = this;
         //初始化SP
-        spUtils = new SPUtils(this,"SuperMovie");
+        spUtils = new SPUtils(this, "SuperMovie");
 
         initDownloadLib();
 

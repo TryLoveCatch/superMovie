@@ -44,5 +44,7 @@ public class UrlConfig {
      public static final String GETSEARCH = "ygcms/getSearch.php";
 //    public static final String GET_VIDEO_THREE = "home.json";
 
+    //豆瓣top250
+    public static final String TOP_DOUBAN = "https://api.douban.com/v2/movie/top250?start=0&count=10";
 
 }
