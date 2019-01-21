@@ -1,0 +1,11 @@
+{
+	"code":"200",
+	"data":{
+		"version":"1.0.19",
+		"versionCode":119,
+		"isForce":false,
+		"downloadUrl":"http://123.207.150.253/ygcms/app/BTMovie_1.0.19_release.apk",
+		"updateMsg":"1.解决了个新bug\n\nTips.若下载后未自动安装，请到文件管理，找到app_update文件夹，可手动安装。"
+	},
+	"msg":""
+}

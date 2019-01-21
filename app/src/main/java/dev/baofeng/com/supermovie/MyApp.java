@@ -40,7 +40,7 @@ public class MyApp extends Application{
         //初始化SP
         spUtils = new SPUtils(this, "SuperMovie");
 
-        initDownloadLib();
+         initDownloadLib();
 
         //初始化缓存管理
         initCache();
