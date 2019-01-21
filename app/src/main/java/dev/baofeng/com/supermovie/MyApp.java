@@ -40,10 +40,10 @@ public class MyApp extends Application{
         //初始化SP
         spUtils = new SPUtils(this, "SuperMovie");
 
-         initDownloadLib();
+        initDownloadLib();
 
         //初始化缓存管理
-        initCache();
+          initCache();
         //让Glide能用HTTPS
         Glide.get(this).register(GlideUrl.class, InputStream.class, new OkHttpUrlLoader.Factory(ApiManager.getClientInstance()));
 
